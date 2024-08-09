@@ -12,17 +12,17 @@ A script to find admin login pages and EAR vulnerabilites.
 ### Usages
 - Check all paths with php extension
 ```
-python LoginFinder -u example.com --type php
+python LoginFinder.py -u example.com --type php
 ```
 - Check all paths with php extension with threads
 ```
-python LoginFinder -u example.com --type php --fast
+python LoginFinder.py -u example.com --type php --fast
 ```
 - Check all paths without threads
 ```
-python LoginFinder -u example.com
+python LoginFinder.py -u example.com
 ```
 - Adding a custom path. For example if you want all paths to start with /data (example.com/data/...) you can do this:
 ```
-python LoginFinder -u example.com --path /data
+python LoginFinder.py -u example.com --path /data
 ```
