@@ -4,10 +4,11 @@ A script to find admin login pages and EAR vulnerabilites.
 #### Features
 - [x] Multi-threading on demand
 - [x] Big path list (482 paths)
+- [x] Support custom path list (wordlist)  
 - [x] Supports php, asp and html extensions
 - [x] Checks for potential EAR vulnerabilites
 - [x] Checks for robots.txt
-- [x] Support for custom patns
+- [x] Support for custom paths
 
 ### Usages
 - Check all paths with php extension
